@@ -50,10 +50,11 @@ $('#resetButton').click(function reset(){
       } 
 );
 
-//WORKING, instead of pop up
-//solution to remove alert, and use new div create dynamically using JS instead of html
+//WORKING on this section, instead of pop up solution to remove alert,
+// and use new div create dynamically using JS instead of alert resetting game
 $('#resetButton').on("click", ".remove", function () {
   $(this).parents('.div').remove();
+  reset()
 })
 
 //adds the wins to the userTotal
