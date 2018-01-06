@@ -38,7 +38,7 @@ div.header, div.rules{
 	width: 40%;
 	height: 60px;
 }
-.userTotal{
+.userTotal, .resultBanner{
 	width: 86%;
 	height: 60px;
 }
